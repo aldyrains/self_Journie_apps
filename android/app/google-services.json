@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "536596601082",
+    "project_id": "selfjournie-apps",
+    "storage_bucket": "selfjournie-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536596601082:android:fd35bf246a53ecc491d143",
+        "android_client_info": {
+          "package_name": "com.arsdev.self_journie_apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX1j7Hn8UppSGk41xRLuHBJ0bhMg1Xnp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
