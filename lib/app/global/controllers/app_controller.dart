@@ -44,6 +44,7 @@ class AppController extends GetxController {
           .listen((event) {
         if (event.exists) {
           Get.find<AppController>().user = User.fromJson(event.data()!);
+          Get.offAllNamed(Routes.SIGN_IN);
         } else {
           Get.find<AppController>().user = null;
         }
@@ -70,5 +71,4 @@ class AppController extends GetxController {
     Get.find<AppController>().user = null;
     Get.offAllNamed(Routes.SIGN_IN);
   }
-
 }

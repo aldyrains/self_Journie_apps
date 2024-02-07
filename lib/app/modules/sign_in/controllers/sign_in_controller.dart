@@ -20,7 +20,7 @@ class SignInController extends GetxController {
       User user = result.data!;
       Get.find<AppController>().user =
           await AuthServices.updateCurrentUser(user);
-      Get.offAllNamed(Routes.HOME);
+      Get.offAllNamed(Routes.NOTES);
     } else {
       Get.snackbar('Gagal masuk', result.message);
     }

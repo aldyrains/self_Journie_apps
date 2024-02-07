@@ -18,6 +18,7 @@ dependencies:
   intl: ^0.18.1
   flutter_screenutil: ^5.6.0
   google_fonts: ^4.0.4
+  flutter_native_image: ^0.0.6+1
   uuid:
   flutter: 
     sdk: flutter
